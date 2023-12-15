@@ -1,0 +1,25 @@
+.board-container{
+    display: flex;
+    padding-inline: 2rem;
+    gap:1rem;
+}
+
+.game-board{
+    position: relative;
+}
+
+
+.game-metrics{
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    width:100%;
+    height: 100%;
+    padding: 1rem;
+    margin: auto;
+}
+
+.sphere-pawn{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
